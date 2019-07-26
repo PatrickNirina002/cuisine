@@ -115,8 +115,8 @@ class Navbar extends Component {
 
     <ul className="midina" >
         <li><Link href="" to='/bienvenue' className='sac'><i class="fa fa-dashboard" ></i> Dashboard</Link></li><br/><br/>
-        <li><Link to={"/atelier"}  className='sac'><i class="fa fa-tags"></i> Ajouter de produit</Link></li><br/><br/>
-        <li><Link to={"/register/"+localStorage.getItem('id')} className='sac'><i class="fa fa-history"></i> Liste de produit</Link></li><br/><br/>
+        <li><Link to={"/atelier"}  className='sac'><i class="fa fa-tags"></i> Ajouter de l'atelier</Link></li><br/><br/>
+        <li><Link to={"/register/"+localStorage.getItem('id')} className='sac'><i class="fa fa-history"></i> Liste de l'atelier</Link></li><br/><br/>
         {/* <li><a href="a"><i class="fa fa-lock"></i> Change Password</a></li><br/><br/> */}
 
     </ul>

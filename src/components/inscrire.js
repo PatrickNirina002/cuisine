@@ -70,7 +70,7 @@ export default class Inscrire extends Component {
                       className="form-control" 
                       value={this.state.nom}
                       onChange={this.onChangenom}
-                      />
+                      required/>
                 </div>
                 <div className="form-group">
                     <label>Prenom: </label>
@@ -78,7 +78,7 @@ export default class Inscrire extends Component {
                       className="form-control"
                       value={this.state.prenom}
                       onChange={this.onChangeprenom}
-                      />
+                      required/>
                 </div>
                 <div className="form-group">
                     <label>Email: </label>
@@ -86,7 +86,7 @@ export default class Inscrire extends Component {
                       className="form-control"
                       value={this.state.email}
                       onChange={this.onChangeemail}
-                      />
+                      required/>
                 </div>
                 <div className="form-group">
                     <label>Telephone: </label>
@@ -94,7 +94,7 @@ export default class Inscrire extends Component {
                       className="form-control"
                       value={this.state.telephone}
                       onChange={this.onChangetelephone}
-                      />
+                      required/>
                 </div>
                 <div className="form-group">
                     <input id='champ' type="submit" value="S'incrire" className="btn btn-primary"/>

@@ -89,56 +89,56 @@ class Modifier extends React.Component {
         className="form-control"
           value={this.state.value}
           onChange={this.onChange}
-          name="titre" /><br></br></div>
+          name="titre" required/><br></br></div>
           <div className="form-group">
           <label>Description:</label>
         <input type="textarea" id='champ'
         className="form-control"
           value={this.state.value}
           onChange={this.onChange}
-          name="description" /><br></br></div>
+          name="description"  required/><br></br></div>
           <div className="form-group">
         <label>date:</label>
         <input type="date" id='champ'
         className="form-control"
           value={this.state.value}
           onChange={this.onChange}
-          name="date" /><br></br> </div>
+          name="date"  required/><br></br> </div>
           <div className="form-group">
           <label>Debut:</label>
         <input type="time" id='champ'
         className="form-control"
           value={this.state.value}
           onChange={this.onChange}
-          name="debut" /><br></br> </div>
+          name="debut"  required/><br></br> </div>
           <div className="form-group">
           <label>Durée:</label>
         <input type="time" id='champ'
         className="form-control"
           value={this.state.value}
           onChange={this.onChange}
-          name="dure" /><br></br>  </div>
+          name="dure"  required/><br></br>  </div>
           <div className="form-group"></div> 
           <label>Nombre de place disponible:</label>
         <input type="text" id='champ'
         className="form-control"
           value={this.state.value}
           onChange={this.onChange}
-          name="place_dispo" /><br></br> 
+          name="place_dispo" required/><br></br> 
           <div className="form-group">
           <label>Nombre de place reservée:</label>
         <input type="text" id='champ'
         className="form-control"
           value={this.state.value}
           onChange={this.onChange}
-          name="place_reserve" /><br></br> </div> 
+          name="place_reserve" required/><br></br> </div> 
           <div className="form-group"> 
           <label>Prix:</label>
         <input type="text"  id='champ'
         className="form-control"
           value={this.state.value}
           onChange={this.onChange}
-          name="prix" /><br></br>   </div> 
+          name="prix"  required/><br></br>   </div> 
       
           <input id='champ' ref={(ref) => { this.uploadInput = ref; }} type="file" name="image"/>
        
